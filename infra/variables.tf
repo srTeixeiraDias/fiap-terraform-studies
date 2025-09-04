@@ -7,7 +7,7 @@ variable "tags_prod" {
   default = {
     Name        = "tag_production"
     Environment = "Production"
-    Fiap        = "postech"
+    Fiap        = "${local.school}"
   }
 }
 
