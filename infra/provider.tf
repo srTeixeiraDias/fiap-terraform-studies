@@ -13,6 +13,6 @@ provider "aws" {
 }
 
 provider "aws" {
-  alias = "sp"
+  alias  = "sp"
   region = "sa-east-1"
 }
